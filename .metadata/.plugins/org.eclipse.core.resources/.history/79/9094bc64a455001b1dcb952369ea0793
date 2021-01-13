@@ -1,0 +1,13 @@
+package br.senai.sp.jandira;
+
+import br.senai.sp.jandira.model.Conta;
+
+public class App {
+
+	public static void main(String[] args) {
+		System.out.println();
+		
+		Conta contaDaCarol = new Conta();
+	}
+
+}

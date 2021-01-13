@@ -1,0 +1,48 @@
+package br.senai.sp.jandira;
+
+import br.senai.sp.jandira.model.Conta;
+
+public class App {
+
+	public static void main(String[] args) {
+		System.out.println();
+		
+		Conta contaDaCarol = new Conta();
+		Conta contaDaFreitas = new Conta();
+		
+		// Determine the Carol data account
+		contaDaCarol.numero = "100-85";
+		contaDaCarol.titular = "Carol Mendes";
+		contaDaCarol.saldo = 2500.0;
+		contaDaCarol.tipo = "Corrente";
+		contaDaCarol.ativa = true;
+		
+		// Determine the Freitas data account
+		contaDaFreitas.numero = "200-96";
+		contaDaFreitas.titular = "Bia Freitas";
+		contaDaFreitas.saldo = 2500.0;
+		contaDaFreitas.tipo = "Corrente";
+		contaDaFreitas.ativa = true;
+		
+		// See the account cash with the name
+		System.out.println("Titular: " + contaDaCarol.titular);
+		System.out.println("Saldo: " + contaDaCarol.saldo);
+		System.out.println("----------------------------------");
+		System.out.println("Titular: " + contaDaFreitas.titular);
+		System.out.println("Saldo: " + contaDaFreitas.saldo);
+		System.out.println("----------------------------------");
+		
+		//Put 100 dollars in Carol account
+		contaDaCarol.saldo = 2600.0
+				
+				// See the account cash with the name
+				System.out.println("Titular: " + contaDaCarol.titular);
+				System.out.println("Saldo: " + contaDaCarol.saldo);
+				System.out.println("----------------------------------");
+				System.out.println("Titular: " + contaDaFreitas.titular);
+				System.out.println("Saldo: " + contaDaFreitas.saldo);
+				System.out.println("----------------------------------");		
+		
+	}
+
+}
